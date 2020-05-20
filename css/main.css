@@ -1,0 +1,135 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    background: url(../img/background.png) no-repeat;
+    font-size: 15px;
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.left_menu {
+    position: absolute;
+    background: #160722;
+    z-index: 1;
+    height: 100%;
+    width: 220px;
+}
+
+.logo_retro {
+    color: #9f5ed3;
+    font-size: 39px;
+    font-weight: 700;
+    padding: 53px 53px 0px 53px;
+    margin: 0;
+}
+
+.logo_casino {
+    letter-spacing: 13px;
+    font-weight: 500;
+    padding: 0 50px 0 54px;
+    margin: -18px 0 0 0;
+}
+
+.line_1 {
+    margin: 50px 0 40px 0;
+}
+
+tr {
+    height: 38px;
+}
+
+.img_menu {
+    width: 58px;
+    text-align: right;
+}
+
+.text_menu, a {
+    padding-left: 17px;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+}
+
+.line_2 {
+    margin: 40px 0;
+}
+
+.container {
+    margin-left: 220px;
+    width: 1600px;
+}
+
+.register {
+    margin-left: 375px;
+    margin-top: 204px;
+}
+
+.limitless {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 120%;
+    background: url(../img/Line_text.png) no-repeat;
+    background-position: left bottom;
+    height: 118px;
+}
+
+.experience {
+    font-weight: 700;
+    font-size: 61px;
+
+}
+
+.today {
+    font-weight: 500;
+    margin-top: 48px;
+}
+
+input:active, input:focus {
+    outline: none !important;
+  }
+input::-moz-focus-inner {
+    border: 0 !important;
+  }
+
+input::placeholder {
+    color: #000;
+}
+
+.email {
+    width: 380px;
+    height: 45px;
+    display: block;
+    border-radius: 100px;
+    margin-bottom: 10px;
+    padding-left: 30px;
+    border: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+button {
+    height: 42px;
+    width: 190px;
+    background: #34124f;
+    border-radius: 100px;
+    color: #fff;
+    border: 0;
+    margin-left: 221px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+.container_1 {
+    margin: 0 auto;
+    width: 970px;
+    display: flex;
+    
+}
+
+.play_dice {
+    margin-top: -100px;
+}
